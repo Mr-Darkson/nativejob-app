@@ -1,0 +1,5 @@
+rootProject.name = 'nativejob-app'
+
+includeBuild('eureka-server')
+includeBuild('user-service')
+includeBuild('api-gateway')
