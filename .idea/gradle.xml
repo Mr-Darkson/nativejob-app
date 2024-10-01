@@ -17,9 +17,14 @@
                   <project path="$PROJECT_DIR$/eureka-server" />
                 </projects>
               </build>
-              <build path="$PROJECT_DIR$/user-service" name="user-service">
+              <build path="$PROJECT_DIR$/github-config-server" name="github-config-server">
                 <projects>
-                  <project path="$PROJECT_DIR$/user-service" />
+                  <project path="$PROJECT_DIR$/github-config-server" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/market-user" name="market-user">
+                <projects>
+                  <project path="$PROJECT_DIR$/market-user" />
                 </projects>
               </build>
             </builds>
@@ -31,7 +36,8 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/api-gateway" />
             <option value="$PROJECT_DIR$/eureka-server" />
-            <option value="$PROJECT_DIR$/user-service" />
+            <option value="$PROJECT_DIR$/github-config-server" />
+            <option value="$PROJECT_DIR$/market-user" />
           </set>
         </option>
       </GradleProjectSettings>
@@ -52,10 +58,10 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/user-service" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/github-config-server" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/user-service" />
+            <option value="$PROJECT_DIR$/github-config-server" />
           </set>
         </option>
       </GradleProjectSettings>

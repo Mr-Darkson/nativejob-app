@@ -1,5 +1,6 @@
 rootProject.name = 'nativejob-app'
 
 includeBuild('eureka-server')
-includeBuild('user-service')
+includeBuild('market-user')
 includeBuild('api-gateway')
+includeBuild('github-config-server')
